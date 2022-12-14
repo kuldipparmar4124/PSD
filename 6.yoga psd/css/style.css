@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+/* border: 1px solid black; */
 
 }
 
@@ -43,20 +44,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    
+}
+
+
+.navbar ul li:hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+    
 }
 
 .navbar ul li {
+    transition: transform 1s;
     list-style: none;
     margin: 35px;
     /* padding: 20px; */
-
+    display: inline-block;
+    
 }
 
-.navbar ul {
-    display: flex;
-}
+
 
 .logo img {
     width: 80px;
@@ -72,6 +81,19 @@
     font-weight: 400;
     /* font-family: "Open Sans"; */
     /* text-align: right; */
+}
+.navbar ul li a:hover {
+  
+    transition: all 1s;
+    outline: 0px solid;
+    /* color: #e9e7e7; */
+    /* background-color: rgb(192, 139, 139); */
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    
+    /* text-decoration: underline black ; */
+
+   
 }
 
 .sec1-text h2 {
@@ -114,6 +136,19 @@
     border: none;
     color: #484f5b;
     text-transform: uppercase;
+    border-radius: 5px;
+
+}
+.btn1 button:hover {
+    
+    /* background-color: rgb(214, 164, 164); */
+    font-size: 22px;
+    /* border: none; */
+    /* color: #484f5b; */
+    /* text-transform: uppercase; */
+    cursor: pointer;
+    border-radius: 8px;
+
 
 }
 
@@ -350,6 +385,16 @@ left: 0px;
     text-transform: uppercase;
 
 }
+.btn5 button:hover {
+    
+    /* background-color: rgb(214, 164, 164); */
+    font-size: 22px;
+    /* border: none; */
+    /* color: #484f5b; */
+    /* text-transform: uppercase; */
+    cursor: pointer;
+
+}
 .sec5-midal-top1{
     top: 75px;
     right: 380px;
@@ -402,7 +447,13 @@ left: 0px;
 
 .sec6-img img {
     width: 100%;
-
+}
+.box {
+    transition: transform 1s;
+}
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
 }
 
 .sec6-img {
@@ -456,13 +507,13 @@ left: 0px;
 
 .sec6-bottom-right1{
     bottom: 50px ;
-    right: -20px;
-    z-index: -1;
+    right: 0px;
+    /* z-index: -1; */
 }
 .sec6-bottom-right2{
     bottom: 50px ;
-    right: -20px;
-    z-index: -1;
+    right: 0px;
+    /* z-index: -1; */
 }
 
 
@@ -473,8 +524,17 @@ left: 0px;
 }
 
 .sec7-icon img {
-    padding: 10px;
+    padding: 12px;
+    border-radius: 20px;
+   
 }
+.sec7-icon img:hover {
+    /* height: 65px; */
+    border-radius: 50%;
+    outline: 0px solid;
+
+}
+
 
 .sec7-midal1{
     top: 300px;
