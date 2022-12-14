@@ -10,6 +10,13 @@
     /* margin: 0 auto; */
 
 }
+.row{
+  display: flex;
+
+}
+.col50{
+  width: 50%;
+}
 
 .sec1-bg{
     /* background: url(../images/sec1-bg.png)no-repeat; */
@@ -116,10 +123,11 @@ padding: 90px 0;
 
   .col30{
     width: 30%;
-    margin: 0px auto;
+    margin: 0 auto;
     /* padding: 100px 0px; */
     /* align-items: center; */
     text-align: center;
+    
 
   }
   .row{
@@ -170,4 +178,242 @@ padding: 90px 0;
 
   /* SEC 3 */
 
+.sec3-leftimg img{
+  width: 100%;
+}
+.sec3-righttext {
+    padding: 140px 60px;
 
+}
+.sec3-righttext h3{
+  font-size: 58px;
+color: #333333;
+font-weight: 700;
+font-family: "Ubuntu";
+
+}
+.sec3-righttext p{
+  font-size: 29px;
+  color: #333333;
+  font-weight: 400;
+  padding: 20px 0px;
+
+}
+.btn2{
+  padding: 20px 0px;
+  }
+  .btn2 button{
+    width: 300px;
+    height: 70px;
+    font-size: 23px;
+    letter-spacing: 5px;
+    border: 2px solid #7287ae;
+    border-radius: 38px;
+    color: white;
+    background-color: #7287ae;
+
+  }
+  .sec3-left-skech{
+    bottom: -50px;
+    left: 300px;
+  }
+  /* sec5 */
+.sec5-bg{
+  background-color: #7287ae;
+}
+
+.sec5-title{
+  margin: 0 auto;
+  width: 30%;
+  padding: 50px 0px;
+}
+
+  .sec5-title h3{
+    /* margin: 0 auto;
+    width: 10%; */
+    font-size: 48px;
+text-transform: uppercase;
+color: #fcf5f5;
+font-weight: 700;
+font-family: "Ubuntu";
+
+  }
+
+.sec5-box-pad{
+  padding: 0px 100px;
+  
+}
+
+  .sec5-box span{
+    font-size: 46px;
+line-height: 30px;
+color: #f7f6f6;
+font-weight: 700;
+font-family: "Ubuntu";
+text-align: center;
+
+  }
+  .sec5-box h4{
+    font-size: 46px;
+    margin: 50px 0 ;
+line-height: 30px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Ubuntu";
+text-align: center;
+  }
+  .sec5-box p{
+    /* width: 387px; */
+    /* height: 127px; */
+    font-size: 19px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+
+  }
+
+  .sec5-box{
+    padding: 40px 40px 60px 40px;
+  } 
+
+  /* .sec5-round1{
+    top: 160px;
+    left: 170px;
+    z-index:2222;
+  }
+  .sec5-round2{
+    top: 350px;
+    right: 150px;
+  }
+  .sec5-round3{
+    top: 350px;
+    right: 150px;
+  } */
+  .sec5-right-skech{
+    top: -50px;
+    right: 50px;
+  }
+/* .sec6 */
+
+  .sec6-mainbg{
+    background:url(../images/sec5-mian-bg.png)no-repeat center center/cover ;
+  }
+  .sec6-title{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 150px 0;
+  }
+
+.sec6-title h3{
+  font-size: 81px;
+color: #7287ae;
+font-weight: 700;
+font-family: "Ubuntu";
+
+}
+.sec6-title p{
+
+  padding: 50px 0;
+  font-size: 29px;
+  color: #7287ae;
+  font-weight: 400;
+  font-family: "Lato";
+  
+}
+
+/* sec7 */
+
+.sec7-bg{
+ background-color: #dfe9c1;;
+}
+.sec7-text{
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding: 100px 0;
+}
+.sec7-text p{
+
+  font-size: 37px;
+  line-height: 42px;
+  color: #7287ae;
+  font-weight: 400;
+  font-family: "Lato";
+  /* text-align: center; */
+  padding: 30px 0px;
+}
+.sec7-text h4{
+  font-size: 42px;
+  line-height: 42px;
+  color: #7287ae;
+  font-weight: 700;
+  font-family: "Ubuntu";
+  text-align: center;
+}
+.sec7-icon {
+  margin: 60px 0;
+}
+.sec7-icon img {
+  padding: 0px 20px;
+}
+
+
+/* sec8 */
+
+
+.sec8-bg{
+  background: url(../images/sec8-bg.png)no-repeat center center/cover;
+  
+}
+
+.flex{
+  display: flex;
+}
+
+.sec8-tb{
+  padding: 35px ;
+}
+.sec8-right-text h5{
+padding: 20px 0;
+font-size: 25px;
+line-height: 33px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Ubuntu";
+
+}
+.sec8-right-text p{
+  font-size: 20px;
+  /* text-transform: uppercase; */
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Ubuntu";
+}
+.sec8-text h5{
+padding: 20px 0;
+font-size: 25px;
+line-height: 33px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Ubuntu";
+
+}
+.sec8-text p{
+padding: 20px 0;
+font-size: 20px;
+/* line-height: 29px; */
+color: #ffffff;
+font-weight: 400;
+font-family: "Lato";
+
+}
+.sec8-text{
+padding: 0px 70px;
+
+
+}
